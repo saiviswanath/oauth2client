@@ -1,0 +1,14 @@
+myapp:
+  baseUrl: http://viswanathpalaparthi-eval-prod.apigee.net/v0/hello
+  oauth2:
+    client:
+      grantType: client_credentials
+      clientId: xzL2LhGmjB2nNEK2i5NffRiGSFPm9Ikk
+      clientSecret: LB0GDoAI88MLFnlx
+      accessTokenUri: https://viswanathpalaparthi-eval-prod.apigee.net/oauth/client_credential/accesstoken
+      scope: DUMMY
+logging:
+  level:
+    org:
+      apache:
+        http: DEBUG
